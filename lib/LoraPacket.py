@@ -7,7 +7,7 @@ from typing import Union
 from typing import Optional
 from dataclasses import dataclass
 import json
-from lib.utils import *
+from utils import *
 from Crypto.Cipher import AES
 from Crypto.Hash import CMAC
 
