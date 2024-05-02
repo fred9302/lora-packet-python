@@ -1,3 +1,9 @@
+# This is a fork of the original lora-packet-python library
+
+The goal of this fork is to add a function to get a dictionary containing the same information as running cli.py.
+
+Following is the original README.md file.
+
 # This is a port of the original lora-packet library to Python
 
 The original excellent work by Antony Kirby can be found here [LoRA Packet](https://github.com/anthonykirby/lora-packet).
