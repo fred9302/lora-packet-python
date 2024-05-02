@@ -7,9 +7,19 @@ from typing import Union
 from typing import Optional
 from dataclasses import dataclass
 import json
-from utils import *
+#from utils import reverse_buffer, as_hex_string
 from Crypto.Cipher import AES
 from Crypto.Hash import CMAC
+
+
+# Content of utils.py
+
+def reverse_buffer(buffer: bytes) -> bytes:
+    return bytes(reversed(buffer))
+
+
+def as_hex_string(buffer: bytes) -> str:
+    return buffer.hex().upper()
 
 
 class MTypeEnum(Enum):
