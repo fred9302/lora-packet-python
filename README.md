@@ -1,6 +1,6 @@
 # This is a fork of the original lora-packet-python library
 
-The goal of this fork is to add a function to get a dictionary containing the same information as running cli.py.
+The goal of this fork is to add a function (to_dict()) to get a dictionary containing the same information as running cli.py.
 
 Following is the original README.md file.
 
